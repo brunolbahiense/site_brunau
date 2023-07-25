@@ -1,7 +1,9 @@
 export default {
   /** Colors */
-  bg: '#000',
+  black: '#000',
+  white: '#fff',
   gray: '#d9d9d9',
-  grayD: ' #1c1f23',
-  pink: '#e01673'
+  darkGray: ' #222',
+  pink: '#e01673',
+  theme: '#11114e'
 }

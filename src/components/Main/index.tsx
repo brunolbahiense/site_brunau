@@ -1,9 +1,11 @@
 import * as S from '../../styles/styles'
 import { FaCoffee, FaCode } from 'react-icons/fa'
 import Link from 'next/link'
+import Header from 'components/Header'
 
 const Main = () => (
   <S.Wrapper>
+    <Header Logo={'Brunau Ink'} />
     <S.Title>BOILERPLATE</S.Title>
     <S.Description>
       Template base dos projetos desenvolvidos por Bluis
