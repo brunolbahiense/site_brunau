@@ -1,37 +1,38 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
-  background-color: ${(props) => props.theme.darkGray};
-  color: ${(props) => props.theme.white};
-  width: 100vw;
-  height: 10em;
-  padding: 3em;
-  text-align: center;
+export const SobreContainer = styled.div`
+  background-color: ${(props) => props.theme.white};
+  color: ${(props) => props.theme.black};
+  width: 100%;
+  height: 70vh;
+  gap: 10em;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `
-export const Logo = styled.div`
-  width: 14em;
+export const Photo = styled.div`
+  background-image: url('/img/assets/mainPhoto.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  box-shadow: 9px 4px 11px 0px rgba(0, 0, 0, 0.25);
 `
-export const Navbar = styled.nav`
-  width: 20em;
+export const TextContainer = styled.div`
+  background-color: ${(props) => props.theme.white};
+  color: ${(props) => props.theme.black};
+  height: 100%;
+  width: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-`
-export const HeaderBtn = styled.button`
-  color: ${(props) => props.theme.white};
-  font-size: 2rem;
-  font-weight: 400;
-  border-radius: 15px;
-  border: none;
-  display: flex;
   justify-content: center;
-  align-items: center;
-  cursor: pointer;
-
-  :hover {
-    color: ${(props) => props.theme.pink};
-  }
+`
+export const SobreTitle = styled.h1`
+  font-size: 3em;
+  margin-bottom: 1em;
+`
+export const SobreDescription = styled.p`
+  font-size: 2em;
+  text-align: center;
 `

@@ -3,7 +3,7 @@ import * as S from './styles'
 
 const Contato = () => (
   <>
-    <div className="container"></div>
+    <h1>Contato</h1>
   </>
 )
 
