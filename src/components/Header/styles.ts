@@ -10,6 +10,9 @@ export const Header = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+  }
 `
 export const Logo = styled.div`
   width: 14em;
@@ -19,6 +22,9 @@ export const Navbar = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    display: none;
+  }
 `
 export const HeaderBtn = styled.button`
   color: ${(props) => props.theme.white};

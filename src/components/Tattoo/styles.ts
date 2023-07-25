@@ -8,12 +8,13 @@ export const TattooContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10em 0;
 `
 export const TattooTitle = styled.h1`
   font-size: 3em;
   margin-bottom: 1em;
+  text-align: center;
 `
 
 export const PortfolioContainer = styled.div`

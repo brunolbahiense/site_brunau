@@ -15,10 +15,10 @@ const Header = ({ Logo }: HeaderProps) => (
         <Link href="#Sobre">
           <S.HeaderBtn>Sobre</S.HeaderBtn>
         </Link>
-        <Link href="/Tattoo">
+        <Link href="#Tattoo">
           <S.HeaderBtn>Tattoo</S.HeaderBtn>
         </Link>
-        <Link href="/Contato">
+        <Link href="#Contato">
           <S.HeaderBtn>Contato</S.HeaderBtn>
         </Link>
       </S.Navbar>

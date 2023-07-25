@@ -2,7 +2,7 @@ import Link from 'next/link'
 import * as S from './styles'
 
 const Contato = () => (
-  <S.Footer>
+  <S.Footer id="Contato">
     <Link href="https://instagram.com/brunau.ink">
       <S.Icon src="/img/assets/icons/insta.png" />
     </Link>

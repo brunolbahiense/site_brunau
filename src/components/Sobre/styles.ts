@@ -9,6 +9,9 @@ export const SobreContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `
 export const Photo = styled.div`
   background-image: url('/img/assets/mainPhoto.jpg');
@@ -17,6 +20,10 @@ export const Photo = styled.div`
   width: 600px;
   height: 700px;
   box-shadow: 9px 4px 11px 0px rgba(0, 0, 0, 0.25);
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    height: 70vh;
+  }
 `
 export const TextContainer = styled.div`
   background-color: ${(props) => props.theme.white};
@@ -27,6 +34,9 @@ export const TextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
 `
 export const SobreTitle = styled.h1`
   font-size: 3em;
