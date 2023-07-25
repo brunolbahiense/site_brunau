@@ -21,15 +21,18 @@ export const PortfolioContainer = styled.div`
   background-color: ${(props) => props.theme.white};
   color: ${(props) => props.theme.black};
   width: 100%;
-  gap: 8em;
+  gap: 2em;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  @media only screen and (max-width: 1300px) {
+    justify-content: center;
+  }
 `
 export const Tattoo = styled.img`
-  width: 35em;
-  height: 35em;
+  width: 30em;
+  height: 30em;
   object-fit: cover;
   box-shadow: 10px 11px 15px 0px rgba(0, 0, 0, 0.25);
 `

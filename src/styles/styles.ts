@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
   width: 100vw;
-  padding: 4em 8em;
+  padding: 4em 24em;
   color: ${(props) => props.theme.white};
   @media only screen and (max-width: 768px) {
     border: none;

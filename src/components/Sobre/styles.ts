@@ -9,7 +9,7 @@ export const SobreContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1300px) {
     flex-direction: column;
   }
 `

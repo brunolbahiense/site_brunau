@@ -3,12 +3,22 @@ import * as S from './styles'
 
 const Contato = () => (
   <S.Footer id="Contato">
-    <Link href="https://instagram.com/brunau.ink">
-      <S.Icon src="/img/assets/icons/insta.png" />
-    </Link>
-    <Link href="https://tiktok.com">
-      <S.Icon src="/img/assets/icons/tiktok.png" />
-    </Link>
+    <S.ContactContainer>
+      <S.ContactTitle>
+        Entre em contato comigo e me conta a sua ideia!
+      </S.ContactTitle>
+      <S.ContactDescription>71 9236-5136</S.ContactDescription>
+      <S.ContactDescription>brunauInk@gmail.com</S.ContactDescription>
+    </S.ContactContainer>
+    <S.IconContainer>
+      <Link href="https://instagram.com/brunau.ink">
+        <S.Icon src="/img/assets/icons/insta.png" />
+      </Link>
+
+      <Link href="https://wa.me/557192365136?text=Quero%20fazer%20um%20orçamento%20">
+        <S.Icon src="/img/assets/icons/whats.png" />
+      </Link>
+    </S.IconContainer>
   </S.Footer>
 )
 
