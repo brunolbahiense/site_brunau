@@ -1,7 +1,7 @@
 import * as S from './styles'
 
 const Sobre = () => (
-  <S.SobreContainer>
+  <S.SobreContainer id="Sobre">
     <S.Photo />
     <S.TextContainer>
       <S.SobreTitle>Bruno Castro</S.SobreTitle>

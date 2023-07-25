@@ -4,7 +4,7 @@ export const SobreContainer = styled.div`
   background-color: ${(props) => props.theme.white};
   color: ${(props) => props.theme.black};
   width: 100%;
-  height: 70vh;
+  min-height: 80vh;
   gap: 10em;
   display: flex;
   align-items: center;
@@ -14,8 +14,8 @@ export const Photo = styled.div`
   background-image: url('/img/assets/mainPhoto.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
-  width: 50%;
+  width: 600px;
+  height: 700px;
   box-shadow: 9px 4px 11px 0px rgba(0, 0, 0, 0.25);
 `
 export const TextContainer = styled.div`

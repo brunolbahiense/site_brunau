@@ -12,7 +12,7 @@ const Header = ({ Logo }: HeaderProps) => (
         <h1>{Logo}</h1>
       </S.Logo>
       <S.Navbar>
-        <Link href="/Sobre">
+        <Link href="#Sobre">
           <S.HeaderBtn>Sobre</S.HeaderBtn>
         </Link>
         <Link href="/Tattoo">

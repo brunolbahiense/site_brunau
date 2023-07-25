@@ -1,37 +1,34 @@
 import styled from 'styled-components'
 
-export const Header = styled.header`
-  background-color: ${(props) => props.theme.darkGray};
-  color: ${(props) => props.theme.white};
-  width: 100vw;
-  height: 10em;
-  padding: 3em;
-  text-align: center;
+export const TattooContainer = styled.div`
+  background-color: ${(props) => props.theme.white};
+  color: ${(props) => props.theme.black};
+  width: 100%;
+  gap: 10em;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 10em 0;
 `
-export const Logo = styled.div`
-  width: 14em;
+export const TattooTitle = styled.h1`
+  font-size: 3em;
+  margin-bottom: 1em;
 `
-export const Navbar = styled.nav`
-  width: 20em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-`
-export const HeaderBtn = styled.button`
-  color: ${(props) => props.theme.white};
-  font-size: 2rem;
-  font-weight: 400;
-  border-radius: 15px;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 
-  :hover {
-    color: ${(props) => props.theme.pink};
-  }
+export const PortfolioContainer = styled.div`
+  background-color: ${(props) => props.theme.white};
+  color: ${(props) => props.theme.black};
+  width: 100%;
+  gap: 8em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+`
+export const Tattoo = styled.img`
+  width: 35em;
+  height: 35em;
+  object-fit: cover;
+  box-shadow: 10px 11px 15px 0px rgba(0, 0, 0, 0.25);
 `
