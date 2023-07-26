@@ -19,6 +19,7 @@ export const Photo = styled.div`
   background-size: cover;
   width: 600px;
   height: 700px;
+  border-radius: 5px;
   box-shadow: 9px 4px 11px 0px rgba(0, 0, 0, 0.25);
   @media only screen and (max-width: 768px) {
     width: 100%;

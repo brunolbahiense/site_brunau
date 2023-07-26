@@ -1,14 +1,13 @@
 import * as S from './styles'
 
-const array = ['tattoo_01', 'tattoo_02', 'tattoo_03', 'tattoo_04']
+const array = ['01', '02', '03', '04', '05', '06']
 
 const Tattoo = () => (
   <S.TattooContainer id="Tattoo">
     <S.TattooTitle>Confira minhas Tattoos</S.TattooTitle>
     <S.PortfolioContainer>
       {array.map((item) => (
-        // eslint-disable-next-line react/jsx-key
-        <S.Tattoo src={`img/assets/${item}.jpg`} />
+        <S.Tattoo src={`img/assets/tattoo_${item}.jpg`} key={item} />
       ))}
     </S.PortfolioContainer>
   </S.TattooContainer>

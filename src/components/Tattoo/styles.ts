@@ -24,15 +24,16 @@ export const PortfolioContainer = styled.div`
   gap: 2em;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   @media only screen and (max-width: 1300px) {
     justify-content: center;
   }
 `
 export const Tattoo = styled.img`
-  width: 30em;
-  height: 30em;
+  width: 40em;
+  height: 40em;
   object-fit: cover;
+  border-radius: 5px;
   box-shadow: 10px 11px 15px 0px rgba(0, 0, 0, 0.25);
 `
