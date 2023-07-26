@@ -11,6 +11,7 @@ export const Header = styled.header`
   justify-content: space-between;
   @media only screen and (max-width: 768px) {
     justify-content: center;
+    padding: 0;
   }
 `
 export const Logo = styled.div`

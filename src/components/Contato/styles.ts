@@ -43,6 +43,7 @@ export const IconContainer = styled.div`
   justify-content: center;
   gap: 8em;
   @media only screen and (max-width: 1300px) {
+    width: 100%;
     border: none;
     margin: 4em 0;
   }
