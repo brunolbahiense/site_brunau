@@ -9,7 +9,7 @@ export const Footer = styled.footer`
   justify-content: center;
   padding: 3em 24em;
   height: 30em;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1300px) {
     padding: 4em;
     flex-direction: column;
     height: auto;
@@ -42,7 +42,7 @@ export const IconContainer = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8em;
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 1300px) {
     border: none;
     margin: 4em 0;
   }
@@ -56,6 +56,13 @@ export const Icon = styled.img`
     width: 6em;
   }
 `
+export const SmallIcon = styled.img`
+  height: 1em;
+  width: 1em;
+  cursor: pointer;
+  margin-right: 1em;
+  margin-top: 0.2em;
+`
 export const ContactTitle = styled.h1`
   font-size: 3em;
   margin-bottom: 1em;
@@ -64,4 +71,8 @@ export const ContactDescription = styled.p`
   font-size: 2em;
   text-align: center;
   cursor: pointer;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
