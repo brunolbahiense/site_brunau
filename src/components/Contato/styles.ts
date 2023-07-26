@@ -7,7 +7,7 @@ export const Footer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 3em 8em;
+  padding: 3em 24em;
   height: 30em;
   @media only screen and (max-width: 768px) {
     padding: 4em;

@@ -3,7 +3,6 @@ import styled from 'styled-components'
 export const Header = styled.header`
   background-color: ${(props) => props.theme.darkGray};
   color: ${(props) => props.theme.white};
-  width: 100vw;
   height: 10em;
   padding: 3em;
   text-align: center;
