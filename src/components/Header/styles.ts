@@ -4,7 +4,7 @@ export const Header = styled.header`
   background-color: ${(props) => props.theme.darkGray};
   color: ${(props) => props.theme.white};
   height: 10em;
-  padding: 3em;
+  padding: 3em 24em;
   text-align: center;
   display: flex;
   align-items: center;

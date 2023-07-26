@@ -63,4 +63,5 @@ export const ContactTitle = styled.h1`
 export const ContactDescription = styled.p`
   font-size: 2em;
   text-align: center;
+  cursor: pointer;
 `

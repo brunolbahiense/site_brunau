@@ -7,8 +7,12 @@ const Contato = () => (
       <S.ContactTitle>
         Entre em contato comigo e me conta a sua ideia!
       </S.ContactTitle>
-      <S.ContactDescription>71 9236-5136</S.ContactDescription>
-      <S.ContactDescription>brunauInk@gmail.com</S.ContactDescription>
+      <Link href="tel:5571992365136">
+        <S.ContactDescription>71 99236-5136</S.ContactDescription>
+      </Link>
+      <Link href="mailto:brunauInk@gmail.com">
+        <S.ContactDescription>brunauInk@gmail.com</S.ContactDescription>
+      </Link>
     </S.ContactContainer>
     <S.IconContainer>
       <Link href="https://instagram.com/brunau.ink">
